@@ -1,144 +1,77 @@
-/* Reset */ 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-/* Body */
 body {
-  background-color: #fffaf2;
-  color: #333;
-  line-height: 1.6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fffdf5;
 }
 
-/* Header */
-header {
-  background: #f7d774;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  color: #5a3e00;
-}
-
-header p {
-  font-size: 1.1rem;
-  color: #6b4f00;
-}
-
-/* Navbar */
-nav {
-  display: flex;
-  justify-content: center;
-  background: #fff3c4;
-  padding: 10px;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #5a3e00;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #d4a200;
-}
-
-/* Hero Section */
+/* HERO */
 .hero {
-  height: 80vh;
-  background: url('mustard.jpg') no-repeat center/cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
+    background: url('https://images.unsplash.com/photo-1604908554168-7c48c9b0d2b2') no-repeat center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
 
-.hero h2 {
-  font-size: 3rem;
-  background: rgba(0,0,0,0.5);
-  padding: 15px;
-  border-radius: 10px;
+.hero-content {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-/* Section */
-.section {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.section h2 {
-  color: #5a3e00;
-  margin-bottom: 20px;
-}
-
-/* Benefits Cards */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  width: 250px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.card h3 {
-  color: #d4a200;
-}
-
-/* Buttons */
+/* BUTTON */
 .btn {
-  display: inline-block;
-  background: #d4a200;
-  color: white;
-  padding: 12px 25px;
-  margin-top: 10px;
-  border-radius: 25px;
-  text-decoration: none;
-  transition: 0.3s;
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.btn:hover {
-  background: #a87c00;
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+    text-align: center;
 }
 
-/* Product Section */
-.products {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+h2 {
+    margin-bottom: 30px;
 }
 
-.product {
-  background: #fff;
-  padding: 20px;
-  border-radius: 15px;
-  width: 250px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+/* GRID */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.product img {
-  width: 100%;
-  border-radius: 10px;
+/* CARDS */
+.card {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Footer */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    background: #f4c430;
+}
+
+/* FOOTER */
 footer {
-  background: #f7d774;
-  text-align: center;
-  padding: 20px;
-  margin-top: 30px;
+    background: #333;
+    color: white;
+    padding: 20px;
 }
