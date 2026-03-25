@@ -4,10 +4,10 @@ body {
 }
 .whatsapp-btn {
     display: inline-flex;
-    align-items: center;
+    align-items: right;
     gap: 10px;
-    background-color: #25D366;
-    color: white;
+    background-color: yellow;
+    color:red;
     padding: 12px 18px;
     border-radius: 8px;
     text-decoration: none;
