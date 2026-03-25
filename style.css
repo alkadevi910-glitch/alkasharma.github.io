@@ -2,6 +2,45 @@ body {
    {
     background-color: rgb(255, 248, 220); /* light yellow */
 }
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.whatsapp-btn img {
+    width: 20px;
+}
+📌 3. Floating WhatsApp Button (Always Visible 🔥)
+
+👉 Add this inside <body> (very useful for business)
+
+<a href="https://wa.me/919163231673" class="whatsapp-float" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="">
+</a>
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float img {
+    width: 25px;
+}
+✨ Bonus (Pre-filled Message)
+href="https://wa.me/919163231673?text=I want to order mustard oil"
+
     margin: 0;
     font-family: Arial, sans-serif;
     background: green;
